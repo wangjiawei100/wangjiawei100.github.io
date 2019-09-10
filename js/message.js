@@ -10,7 +10,7 @@ window.onload = function() {
         var li = document.createElement('li');
         li.className = 'clearfix';
         var html = '';
-        html+='    <img class="icon" src="../img/aboutMe.png" alt="">';
+        html+='    <img class="icon" src="./img/aboutMe.png" alt="">';
         html+='    <div class="mesBoardBox">';
         html+='        <h5>神秘游客</h5>';
         html+='        <p>'+content+'</p>';
