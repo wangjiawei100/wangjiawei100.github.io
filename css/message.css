@@ -1,0 +1,93 @@
+body{
+    background: url("../img/04.jpg") no-repeat;
+    background-size: cover;
+     font-family: 楷体;
+}
+
+.content{
+        width: 1000px;
+        margin:0 auto 10px;
+        margin-top:30px;
+        padding:10px;
+        position:relative;
+        border-top: 3px solid #ccc;
+}
+
+
+.mesBoard{
+    position:relative;
+    width:900px;
+    height:200px;
+    padding: 30px;
+    margin:0 auto;
+    /*border-bottom: 3px orange solid;*/
+}
+
+.comment{
+    position:relative;
+    width:900px;
+    padding: 0px;
+    margin:0 auto;
+    /*border: 3px orange solid;*/
+}
+
+#publish{
+    float: right;
+}
+
+
+.mesBoard .icon{
+    width:60px;
+    height: 80px;
+    border-radius: 5px;
+    position:absolute;
+}
+.mesBoardBox{
+    width: 800px;
+    position:relative;
+
+    left:80px;
+}
+.mesBoardBox textarea{
+    border-radius: 5px;
+    width: 100%;
+    height: 150px;
+    line-height: 28px;
+    text-indent: 2em;
+}
+.mesBoardBox button{
+    width: 60px;
+    height: 30px;
+    margin-top: 10px;
+    font-family: 楷体;
+}
+.commentTitle{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #111;
+}
+.msgList{
+    border-top: 2px solid #ccc;
+}
+.msgList li{
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    line-height: 28px;
+}
+.msgList .icon{
+    position:absolute;
+    width:50px;
+    height: 50px;
+}
+
+.footer{
+    position:relative;
+    bottom: 0;
+}
+
+.header{
+    background: url("../img/06.jpg") no-repeat;
+    background-size: cover;
+}

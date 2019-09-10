@@ -1,0 +1,206 @@
+
+body{
+    background: url("../img/09.jpg") no-repeat;
+    background-size: cover;
+}
+
+.calendar{
+            width: 450px;
+            height: 400px;
+            background: white;
+            box-shadow: 0px 1px 1px rgba(0,0,0,.1);
+            position:relative;
+            float:left;
+        }
+ 
+        .title{
+            height: 70px;
+            border-bottom: 1px solid rgba(0,0,0,.1);
+            position: relative;
+            text-align: center;
+        }
+ 
+        #calendar-title{
+            font-size: 25px;
+
+            text-transform: uppercase;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 14px 0 0 0;
+        }
+ 
+        #calendar-year{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: normal;
+        }
+ 
+        #pre{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            color:black;
+            /*没规定大小时，图片显示 0X0*/
+            width: 60px;
+            height: 70px;
+            font-size: bold;
+        }
+ 
+        #next{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            background: url(next.png) no-repeat 50% 50%;
+            color:black;
+            width: 60px;
+            height: 70px;
+            font-size: bold;
+        }  
+ 
+        .body-list ul{
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            width: 100%;
+
+            box-sizing: border-box;
+      
+        }  
+ 
+        .body-list ul li{
+            list-style: none;
+            /*
+            display:inline-block; 
+            width: 13.3%;
+            */
+ 
+            /*100/7 = 14.28%*/
+            display: block;
+            width: 14.28%;
+            float: left;
+ 
+            /*规定行高，垂直居中*/
+            height: 36px;
+            line-height: 36px;
+            box-sizing: border-box;
+            text-align: center;
+            
+        }
+ 
+ 
+        .green{
+            color:#6ac13c;
+        }
+ 
+        .lightgrey{ /*浅灰色显示过去的日期*/
+	        color:#a8a8a8;
+        }   
+        .darkgrey{ /*深灰色显示将来的日期*/
+	        color:#565656;
+        }
+ 
+        /*日期当天用绿色背景绿色文字加以显示*/
+        .greenbox{
+            border: 1px solid #6ac13c;
+            background: #e9f8df;
+        }
+       
+
+.timetable{
+    width:1100px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top:30px;
+    margin-bottom: 10px;
+}
+
+.calendar{
+    /*border:5px solid orange;*/
+    float:left;
+    margin-top:80px;
+    margin-left: 20px;
+    padding:20px;
+}
+
+.shijianbiao{
+    /*border-left:5px solid gray;*/
+    float:right;
+    width: 500px;
+    height: 590px;
+    margin-right:20px;
+}
+
+.sjb{
+    margin-top:70px;
+     width: 450px;
+     height: 500px;
+     float: right;
+
+}
+
+img:active{
+    animation:r 30s;
+}
+
+@keyframes r
+{
+0% {transform: scale(1,1);}
+10%{transform: scale(1.5,1.5);}
+100%{transform: scale(1.5,1.5);}
+}
+
+.xiaoli{
+    border-top:5px solid gray;
+    border-bottom:5px solid gray;
+    width:1100px;
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.xl{
+    position: relative;
+    width:1000px;
+    height: 450px;
+    left:50px;
+    top:100px;
+   
+}
+
+.kebiao{
+    /*border:5px solid orange;*/
+    width:1100px;
+    height:660px;
+    margin: 0 auto;
+    margin-top:30px;
+}
+
+.kb{
+    float:right;
+    width:950px;
+    height:600px;
+    padding-right: 40px;
+}
+
+.biaoti{
+    border-bottom: 2px gray solid;
+    width: 200px;
+    height:40px;
+    position:absolute;
+    margin-top:1px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+
+}
+
+.name{
+    text-align: center;
+    font-size: 28px; 
+    color:orange;
+    font-family: 微软雅黑;
+}
+
+
+.header{
+    background: url("../img/06.jpg") no-repeat;
+    background-size: cover;
+}

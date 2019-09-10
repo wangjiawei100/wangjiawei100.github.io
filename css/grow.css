@@ -1,0 +1,93 @@
+body{
+    background: url("../img/04.jpg") no-repeat;
+    background-size: cover;
+     font-family: 楷体;
+}
+
+.center {
+    background-color: white;
+    height: 6px;
+}
+
+.content{
+
+	width:1000px;
+	margin:0 auto;
+	position:relative;
+}
+
+.logo
+{
+    height: 200px;
+    width: 275px;
+    border-radius:50%
+}
+
+.school{
+	position:relative;
+	margin: 15px;
+	padding:10px;
+	width: 900px;
+	height: 280px;
+    border: solid 5px gray;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    background: url("../img/03.jpg") no-repeat;
+	background-size: cover;
+}
+
+
+.name{
+	position:relative;
+	top:5px;
+	left:10px;
+	font-family: 楷体;
+	font-size: 24px;
+	color:gray;
+	/*border:3px solid orange;*/
+}
+
+.info{
+	position:relative;
+	height:280px;
+	width:880px;
+	/*border:3px solid orange;*/
+}
+
+.dlogo{
+	position:relative;
+	float: left:;
+	top:30px;
+	left:30px;
+	height:200px;
+	width: 280px;
+	/*border:3px solid orange;*/
+
+}
+
+.sinfo{
+	position:relative;
+	float: right:;
+	top:-200px;
+	left:400px;
+	height:200px;
+	width: 400px;
+	color:orange;
+	font-size: 17px;
+	/*border:3px solid orange;*/
+}
+
+.sinfo a{
+	float: right
+}
+
+
+img:hover{
+    animation:r 3s;
+}
+
+@keyframes r
+{
+0% {transform: rotate(0deg);}
+100%{transform: rotate(360deg);}
+}

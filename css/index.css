@@ -1,0 +1,105 @@
+
+a:hover{color:orange;}
+
+
+
+.content{
+    background: url("../img/index2.jpg") no-repeat;
+     background-size: cover;
+     width:1100px;
+     height:700px;
+     position:relative;
+     top:20px;
+     margin:0 auto;
+     padding: 10px;
+     box-shadow:0px 0px 20px black;
+     border-radius:5px;
+ }
+
+
+
+.content .logo{
+
+    position:absolute;
+    left:90px;
+    top: 150px;
+    height: 300px;
+    border-radius:50%
+}
+
+.greet{
+    position: relative;
+    color: #fff;
+    font-size: 45px;
+    top:100px;
+    left:400px;
+    height:360px;
+    width:480px;
+    font-family: 楷体;
+    text-shadow: 5px 5px 5px black;
+    /*border:2px orange solid;*/
+}
+
+.greet .info{
+    padding-left: 100px;
+    font-size:30px;
+}
+
+
+.aboutMe{
+    width:1200px;
+    height: 400px;
+    background: url("../img/index2.jpg") no-repeat;
+    margin: 0 auto 10px;
+    padding:10px;
+}
+.aboutMe .logo{
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.aboutMe .title{
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.aboutMe .intro{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    line-height: 38px;
+}
+
+
+
+
+
+.stock a:hover{
+    width:200px;
+    background-color: white;
+    color: orange;
+}
+
+
+img:hover{
+    animation:r 2s;
+}
+
+@keyframes r
+{
+0% {transform: rotateY(0deg);}
+100%{transform: rotateY(360deg);}
+}
+
+.greet:hover{
+    animation: b 2s;
+}
+
+@keyframes b
+{
+0% {font-size:45px;}
+50%{font-size:50px;}
+100%{font-size:45px;}
+}
